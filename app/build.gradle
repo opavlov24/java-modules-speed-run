@@ -7,6 +7,6 @@ dependencies {
 }
 
 application {
-    mainModule = 'io.falcon.engage.app'
+    mainModule = 'engage.module.app'
     mainClass = 'io.falcon.engage.app.EntryPoint'
 }
