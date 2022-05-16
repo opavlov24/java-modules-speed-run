@@ -1,0 +1,12 @@
+plugins {
+    id 'application'
+}
+
+dependencies {
+    implementation project(":api")
+}
+
+application {
+    mainModule = 'io.falcon.engage.app'
+    mainClass = 'io.falcon.engage.app.EntryPoint'
+}

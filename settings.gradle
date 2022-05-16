@@ -1,0 +1,3 @@
+rootProject.name = 'java-modules-speed-run'
+
+include("api", "app")
