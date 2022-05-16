@@ -1,4 +1,4 @@
-module io.falcon.engage.app {
-    exports io.falcon.engage.app;
-    requires io.falcon.engage.api;
+module engage.module.app {
+    requires engage.core.api;
+    uses io.falcon.engage.api.request.CommentApi;
 }
